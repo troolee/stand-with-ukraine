@@ -24,5 +24,6 @@ module.exports = {
     },
     __key: "pages"
   },
-  `gatsby-plugin-sass`]
+  `gatsby-plugin-sass`,
+  `gatsby-plugin-react-helmet`]
 };

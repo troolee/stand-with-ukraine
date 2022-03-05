@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Helmet } from "react-helmet"
 
 import '../styles/main.scss';
 import standWithUkraine from '../images/stand-with-ukraine.png';
@@ -7,6 +8,11 @@ import standWithUkraine from '../images/stand-with-ukraine.png';
 const IndexPage = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>#StandWithUkraine</title>
+      </Helmet>
+
       <section className="hero is-halfheight main-hero">
         <div className="hero-body">
           <div className="container has-text-centered">
