@@ -25,5 +25,19 @@ module.exports = {
     __key: "pages"
   },
   `gatsby-plugin-sass`,
-  `gatsby-plugin-react-helmet`]
+  `gatsby-plugin-react-helmet`,
+  {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: `#StandWithUkraine`,
+      short_name: `#StandWithUkraine`,
+      start_url: `/`,
+      icon: `src/images/icon.png`,
+      icon_options: {
+        // For all the options available,
+        // please see the section "Additional Resources" below.
+        purpose: `any maskable`,
+      },
+    },
+  }]
 };
