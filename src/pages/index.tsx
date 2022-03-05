@@ -58,8 +58,64 @@ const IndexPage = () => {
       </section>
 
       <footer className="footer">
-        <div className="content has-text-centered">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptatum vitae officiis porro dolor ab recusandae dolorem, pariatur delectus molestiae unde nulla quae voluptatibus quas repellendus maxime, sunt temporibus vel?
+        <div className="container">
+
+          <div className="columns is-centered">
+            <div className="column is-two-fifths">
+              <div className="content">
+                <h2 className="has-text-danger">
+                  Горячая телефонная линия для родственников наших солдат и офицеров
+                </h2>
+                <p>
+                  Если ваши близкие в последние месяцы отправились на учения и с ними нет связи, скорее всего они учавствуют в нападении на Украину.
+                </p>
+                <p>
+                  С начала вторжения 24 февраля 2022 года украинскими войсками убито и ранено более 10,000 наших солдат и офицеров. Более 500 захвачено в плен.
+                </p>
+              </div>
+            </div>
+            <div className="column is-two-fifths">
+              <div className="content">
+                <p>
+                  Минобороны Украины открыл горячую телефонную линию для матерей, родителей, жен, бабушек и дедушек русских солдат и офицеров,
+                  которые пришли в Украину с оружием, но были взяты в плен или убиты.
+                </p>
+                <p>
+                На горячей линии, которая называется “Вернись живым с Украины!” родственники русских военнослужащих смогут узнать о том,
+                живы ли еще их родные, взяты ли в плен, есть ли ранения или решить вопрос о том, когда и как можно забрать тело погибшего родственника с территории Украины.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="columns is-centered pb-6">
+            <div className="column is-four-fifths">
+              <div className="content has-text-centered">
+                <h1>
+                  <span className="has-text-danger">&#xab;</span>
+                  Вернись живым из Украины!
+                  <span className="has-text-danger">&#xbb;</span>
+                </h1>
+                <div className="columns is-centered">
+                  <div className="column has-text-centered is-narrow">
+                    <span className="px-1" style={{whiteSpace: 'nowrap'}}>+380-89-420-1860</span>
+                  </div>
+                  <div className="column has-text-centered is-narrow">
+                    <span className="px-1" style={{whiteSpace: 'nowrap'}}>+380-89-420-1861</span>
+                  </div>
+                  <div className="column has-text-centered is-narrow">
+                    <span className="px-1" style={{whiteSpace: 'nowrap'}}>+380-89-420-1862</span>
+                  </div>
+                </div>
+
+                <p>
+                  “Если ваш родной человек у нас в плену, вы можете оставить для вашего мужа, сына краткую весть. Украина предоставит возможность забрать ваших родственников из плена на територии Украины.”,
+                  – Антон Геращенко, советник министра внутренних дел Украины.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </footer>
     </>
