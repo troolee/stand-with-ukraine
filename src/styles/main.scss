@@ -1,27 +1,42 @@
 @charset "utf-8";
 
 $ua_blue: #0995de;
+$box-radius: 20px;
+$family-monospace: "Ubuntu Mono";
 
 @import "~bulma/bulma.sass";
-@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
-
-body {
-    background: $ua_blue center center url("../images/bg.jpg") no-repeat fixed;
-    background-size: cover;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 .hero {
-    &.is-fullheight.main-hero {
-        // min-height: 80vh;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+
+    &.main-hero {
+        min-height: 80vh;
+        background: $ua_blue center center url("../images/bg.jpg") no-repeat;
+        background-size: cover;
     }
 
     .hero-body {
         .title {
             font-family: 'Neucha', cursive;
-            text-shadow: 2px 0 4px rgba(0, 0, 0, 0.5);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
             color: white;
             text-align: center;
             font-size: 5rem;
         }
     }
+
+    .hero-footer {
+        .title {
+            font-family: 'Neucha', cursive;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            font-size: 5rem;
+        }
+    }
+}
+
+.negarive-offset {
+    margin-top: -250px;
 }
