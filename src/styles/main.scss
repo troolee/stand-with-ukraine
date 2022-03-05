@@ -7,11 +7,16 @@ $family-monospace: "Ubuntu Mono";
 @import "~bulma/bulma.sass";
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
+body {
+    background: $ua_blue center center url("../images/ua.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
 .hero {
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 
     &.main-hero {
-        min-height: 80vh;
+        min-height: 90vh;
         background: $ua_blue center center url("../images/bg.jpg") no-repeat;
         background-size: cover;
     }

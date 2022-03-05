@@ -36,6 +36,15 @@ const IndexPage = () => {
                   Мы применяем авиацию, наносим ракетные удары по жилым массивам Киева, Харькова, Мариуполя, Волновахи и других городов.
                   Мы обстреливали Запорожскую атомную электростанцию.
                 </p>
+                <p>
+                  Наша армия убивает мирное население!
+                </p>
+                <p>
+                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/NZbggSYTLR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+                <p>
+                  МЫ убиваем мирное население! Наши дети сейчас умирают на чужой земле! Наши дети попадают в плен!
+                </p>
               </div>
             </div>
           </div>
