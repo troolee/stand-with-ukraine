@@ -1,8 +1,8 @@
 /** @type {import('gatsby').GatsbyConfig} */
 module.exports = {
   siteMetadata: {
-      title: ``,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `#StandWithUkraine`,
+    siteUrl: `https://ukraine.uglyunicorn.ca`
   },
   plugins: [{
     resolve: 'gatsby-source-datocms',
@@ -23,5 +23,6 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },
+  `gatsby-plugin-sass`]
 };

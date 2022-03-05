@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+$ua_blue: #0995de;
+
+@import "~bulma/bulma.sass";
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body {
+    background: $ua_blue center center url("../images/bg.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.hero {
+    &.is-fullheight.main-hero {
+        // min-height: 80vh;
+    }
+
+    .hero-body {
+        .title {
+            font-family: 'Neucha', cursive;
+            text-shadow: 2px 0 4px rgba(0, 0, 0, 0.5);
+            color: white;
+            text-align: center;
+            font-size: 5rem;
+        }
+    }
+}
