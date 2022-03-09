@@ -116,6 +116,20 @@ const IndexPage = () => {
             </div>
           </div>
 
+          <div className="columns is-centered pb-6">
+            <div className="column is-three-fifths has-text-centered">
+              <div className="notification is-danger is-light px-6 pb-6 pt-5">
+                <div className="content">
+                  <h1 className="has-text-danger">Важно!</h1>
+                  <p>
+                    Военное руководство РФ отдало приказ скрывать потери живой силы, а также захоронять тела в братских могилах или уничтожать на месте
+                    (<a href="https://russoldat.info/voennoe-rukovodstvo-rf-otdalo-prikaz/" target="_blank">документ</a>)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </footer>
     </>
