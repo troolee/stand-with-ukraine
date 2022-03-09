@@ -7,18 +7,29 @@ import ogImage from '../images/og-image.webp';
 
 // markup
 const IndexPage = () => {
+  const title = "#StandWithUkraine";
+  const shortDescription = "Россия начала полномасштабное вторжение в Украину. Применяет авиацию, наносит ракетные удары по жилым массивам Киева, Харькова, Мариуполя, Сум и других городов";
+
   return (
     <>
       <Helmet>
         <html lang="ru" />
         <meta charSet="utf-8" />
-        <title>#StandWithUkraine</title>
+        <title>{title}</title>
+        <meta name="description" content={shortDescription} />
 
         <meta property="og:image" content={ogImage} />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="#StandWithUkraine" />
-        <meta property="og:description" content="Россия начала полномасштабное вторжение в Украину. Применяет авиацию, наносит ракетные удары по жилым массивам Киева, Харькова, Мариуполя, Волновахи, Сум и других городов." />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={shortDescription} />
         <meta property="og:url" content="https://StandWithUkraine.page" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="StandWithUkraine.page" />
+        <meta property="twitter:url" content="https://StandWithUkraine.page/" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={shortDescription} />
+        <meta name="twitter:image" content={ogImage} />
       </Helmet>
 
       <section className="hero is-halfheight main-hero">
@@ -28,7 +39,7 @@ const IndexPage = () => {
               <div className="columns is-centered">
                 <div className="column is-four-fifths">
                   <p className="title">
-                    <img src={standWithUkraine} alt="#StandWithUkraine" />
+                    <img src={standWithUkraine} alt={title} />
                   </p>
                 </div>
               </div>
