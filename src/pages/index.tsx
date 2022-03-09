@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 
 import '../styles/main.scss';
 import standWithUkraine from '../images/stand-with-ukraine.webp';
+import ogImage from '../images/og-image.webp';
 
 // markup
 const IndexPage = () => {
@@ -12,6 +13,12 @@ const IndexPage = () => {
         <html lang="ru" />
         <meta charSet="utf-8" />
         <title>#StandWithUkraine</title>
+
+        <meta property="og:image" content={ogImage} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="#StandWithUkraine" />
+        <meta property="og:description" content="Россия начала полномасштабное вторжение в Украину. Применяет авиацию, наносит ракетные удары по жилым массивам Киева, Харькова, Мариуполя, Волновахи, Сум и других городов." />
+        <meta property="og:url" content="https://StandWithUkraine.page" />
       </Helmet>
 
       <section className="hero is-halfheight main-hero">
