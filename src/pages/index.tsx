@@ -2,13 +2,14 @@ import * as React from "react";
 import { Helmet } from "react-helmet"
 
 import '../styles/main.scss';
-import standWithUkraine from '../images/stand-with-ukraine.png';
+import standWithUkraine from '../images/stand-with-ukraine.webp';
 
 // markup
 const IndexPage = () => {
   return (
     <>
       <Helmet>
+        <html lang="ru" />
         <meta charSet="utf-8" />
         <title>#StandWithUkraine</title>
       </Helmet>
@@ -46,7 +47,7 @@ const IndexPage = () => {
                   Армия Российской Федерации убивает мирное население!
                 </p>
                 <p>
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/NZbggSYTLR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/NZbggSYTLR4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </p>
                 <p>
                   Русские убивают мирное население! Русские дети сейчас умирают на чужой земле! Попадают в плен!
